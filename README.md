@@ -20,10 +20,20 @@ Before running the mini shell program, ensure that you have the following:
 
 ## Installation 
 You can install the required tools on a Debian-based system using the following commands:
-```bash
-# For C Compiler and Make
+`bash
+ //For C Compiler and Make
 sudo apt-get update
 sudo apt-get install build-essential
 
-# For Bison and Flex
+//For Bison and Flex
 sudo apt-get install bison flex
+
+## Run 
+- Navigate to directory
+- Make
+  ```bash
+  make
+  
+## Authors 
+- [Youssef Elkady](https://github.com/Youssef-Elkady)
+- [Salma ElMahy](https://github.com/elmahygurl)
