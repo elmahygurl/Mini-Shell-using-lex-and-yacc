@@ -6,3 +6,14 @@ Lex plays a role in defining the lexical structure of the shell, encompassing ke
 Yacc, on the other hand, is responsible for outlining the grammar and syntax of the shell. It takes the tokens produced by lex, using them to construct the structure of shell commands. Additionally, yacc implements the necessary actions for executing these commands, such as invoking system functions or running external programs.
 
 The collaboration between lex and yacc provides a simple yet robust framework for developing a shell program. This makes it an excellent choice for gaining insights into shell programming and understanding the fundamentals of parsing.
+
+## Prerequisites 
+Before running the mini shell program, ensure that you have the following:
+1. **Operating System:**
+   - Linux (Ubuntu or any Debian-based distribution)
+2. **Required Software:**
+   - C Compiler
+   - Make
+3. **Additional Tools:**
+   - Bison
+   - Flex
