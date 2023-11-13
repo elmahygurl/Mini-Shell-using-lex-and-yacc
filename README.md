@@ -22,9 +22,13 @@ Before running the mini shell program, ensure that you have the following:
 You can install the required tools on a Debian-based system (Ubuntu) using the following commands:
 
    ### For C Compiler and Make
+   
    sudo apt-get update
+   
    sudo apt-get install build-essential
+   
    ### For Bison and Flex
+   
    sudo apt-get install bison flex
 
 ## Run 
