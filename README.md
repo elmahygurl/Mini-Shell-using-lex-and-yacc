@@ -10,10 +10,20 @@ The collaboration between lex and yacc provides a simple yet robust framework fo
 ## Prerequisites 
 Before running the mini shell program, ensure that you have the following:
 1. **Operating System:**
-   - Linux (Ubuntu or any Debian-based distribution)
+   - Linux (Ubuntu)
 2. **Required Software:**
    - C Compiler
    - Make
 3. **Additional Tools:**
    - Bison
    - Flex
+
+## Installation 
+You can install the required tools on a Debian-based system using the following commands:
+```bash
+# For C Compiler and Make
+sudo apt-get update
+sudo apt-get install build-essential
+
+# For Bison and Flex
+sudo apt-get install bison flex
